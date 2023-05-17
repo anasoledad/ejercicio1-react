@@ -2,9 +2,8 @@ import React from 'react';
 
 const Mensaje = () => {
     return (
-        <section>
-            <h1 >Hello Word!</h1>
-            
+        <section className='bg-success bg-opacity-25 py-5'>
+            <h1 className='text-center text-danger'>Hello Word!</h1>
         </section>
     );
 };
